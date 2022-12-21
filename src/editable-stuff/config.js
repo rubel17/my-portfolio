@@ -25,7 +25,7 @@ const mainBody = {
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/",
+      url: "https://twitter.com/Rubel_Rk7",
     },
   ],
 };
@@ -64,7 +64,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "rubel17", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  reposLength: 6,
   specificRepos: [],
 };
 
@@ -97,21 +97,25 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "React", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "ReactJS", value: 85 },
+    { name: "JavaScript", value: 80 },
+    { name: "HTML/CSS", value: 75 },
+    { name: "Bootstrap/Tailwind CSS", value: 85 },
+    { name: "React Router", value: 85 },
+    { name: "Firebase", value: 75 },
+    { name: "NodeJS/ExpressJS", value: 60 },
+    { name: "JWT", value: 65 },
+    { name: "RESTful API", value: 65 },
+    { name: "MongoDB", value: 55 },
+    { name: "Axios", value: 70 },
+    { name: "React Query", value: 65 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
     { name: "Collaboration", value: 90 },
     { name: "Positivity", value: 75 },
     { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
+    { name: "Problem Solving", value: 65 },
     { name: "Empathy", value: 90 },
     { name: "Organization", value: 70 },
     { name: "Creativity", value: 90 },
@@ -123,24 +127,25 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for full-time web developer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "md.kamruzzamanrubel2017@gmail.com",
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: "Software Engineer", // Here Add Company Name
-      companylogo: require("../assets/img/dell.png"),
-      date: "June 2018 – Present",
+      role: "IT Officer , Northern International Medical College Hospital, Dhaka",
+      // Here Add Company Name
+      companylogo: require("../assets/img/NIMCH.jpeg"),
+      date: "Mar  2019 - Feb 2022",
     },
-    {
-      role: "Front-End Developer",
-      companylogo: require("../assets/img/boeing.png"),
-      date: "May 2017 – May 2018",
-    },
+    // {
+    //   role: "Front-End Developer",
+    //   companylogo: require("../assets/img/boeing.png"),
+    //   date: "May 2017 – May 2018",
+    // },
   ],
 };
 
